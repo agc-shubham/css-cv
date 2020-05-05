@@ -1,0 +1,128 @@
+body{
+	margin: 0;
+	text-align: center;
+}
+h1{
+	
+	margin: 50px auto 0 auto;
+	font-family: 'Great Vibes', cursive;
+	font-size: 5.625rem;
+	color: #66bfbf;
+
+}
+h2{
+	font-family: 'Ubuntu', serif;
+	font-size: 2rem;
+	color: #66bfbf;
+	font-weight: normal;
+}
+h3,h6{
+	font-family: 'Ubuntu', serif;
+	color: #11999E;
+}
+a{
+	color: #11999E;
+}
+p{
+	font-family: 'Roboto Slab' , sans-serif;
+	
+}
+a{
+	text-decoration: none;
+	color: #11999E;
+	margin: 15px;
+	font-family: 'Ubuntu', serif;
+	font-size: 1em;
+}
+a:hover{
+	color: #eaf6f6;
+
+}
+hr{
+	border-style: dotted none none;
+	border-color: #f76b8a;
+	border-width: 5px;
+	width: 7%;
+	margin: 100px auto;
+}
+#i{
+	font-family: 'Great Vibes', cursive;
+	font-size: 7rem;
+}
+.top-container{
+	position: relative;
+	background-color: #eaf6f6;
+	padding-top: 100px;
+}
+.top-cloud{
+	position: absolute;
+	top: 50px;
+	right: 300px;
+	
+}
+.bottom-cloud{
+	position: absolute;
+	left: 300px;
+	bottom: 300px;
+}
+.profile{
+	margin: 50px;
+
+}
+.profile>img{
+	width:20%;
+	margin: 0 auto;
+	
+}
+
+.skill-row{
+	width:50%;
+	margin: 100px auto;
+	text-align: left;
+	line-height: 2;
+}
+.skill-prof{
+	width: 25%;
+	float: left;
+	margin-right: 30px;
+}
+.skill-hobby{
+	width: 25%;
+	float: right;
+	margin-left: 30px;
+}
+.contact-me{
+	width:40%;
+	margin: 40px auto 60px;
+}
+.btn{
+	height: 50px;
+	width: 150px;
+	background-color: #00A1AB;
+	color: #000000;
+	margin:50px auto;
+	border-radius: 10px;
+	transition: all 0.1sec;
+	box-shadow: none;
+}
+.btn:hover{
+		background-color: #00A189;
+		color: #00A1AB;
+}
+.btn>a{
+	color: #ffffff;
+	font-size: 0.95rem;
+}
+.bottom-container{
+	background-color: #66bfbf;
+	padding: 30px;
+	margin-bottom: 0px;
+}
+.bottom-container>a{
+	font-size: 1.5rem;
+}
+.bottom-container>p{
+	color: #EAF6F6;
+	font-size: .8rem;
+	margin:30px 0;
+	}
